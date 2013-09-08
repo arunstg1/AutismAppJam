@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/bg2" >
+
+    <TextView
+        android:id="@+id/tv_question"
+        android:layout_height="wrap_content"
+        android:layout_weight="8"
+        android:gravity="center" />
+
+    <Button
+        android:id="@+id/b_speak"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Speak" />
+
+</LinearLayout>

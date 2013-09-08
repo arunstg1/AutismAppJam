@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg2"
+    android:gravity="center|center_horizontal"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/iv_mainlogo"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/logo" />
+
+    <Button
+        android:id="@+id/b_wordmode"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/button"
+        android:text="Word Mode"
+        android:textSize="20sp"
+        android:width="175px" />
+
+    <Button
+        android:id="@+id/b_sentencemode"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/button"
+        android:text="Sentence Mode"
+        android:textSize="20sp"
+        android:width="175px" />
+
+    <Button
+        android:id="@+id/b_addwordssentences"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/button"
+        android:text="Add Words / Sentences"
+        android:textSize="20sp"
+        android:width="180px" />
+
+    <Button
+        android:id="@+id/b_clearcustomwordssentences"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/button"
+        android:text="Clear Added Words/Sentences"
+        android:textSize="20sp"
+        android:width="180px" />
+
+</LinearLayout>
